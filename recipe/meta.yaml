@@ -1,8 +1,8 @@
 {% set name = "roslibpy" %}
-{% set version = "0.4.1" %}
+{% set version = "0.5.0" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "9c3f610959b0aeee82b48c665c90d49c470c21e36459dacf8023f19c57951c08" %}
+{% set hash_value = "4269ba1ff10d830109dbde8a7fb3deaa752f725e2807123d47b6c21484970515" %}
 
 package:
   name: '{{ name|lower }}'
