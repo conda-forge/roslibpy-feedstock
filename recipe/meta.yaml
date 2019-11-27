@@ -1,8 +1,8 @@
 {% set name = "roslibpy" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "fea8a0bef094551b3aa52876bb50e4b2de60b2d7f49b7752eb1ecb9e2f218fab" %}
+{% set hash_value = "2b13fb6b354d7f7cf2b3204be3ef8568901a1413a4ff316217876eee64ac004c" %}
 
 package:
   name: '{{ name|lower }}'
@@ -51,3 +51,4 @@ about:
 extra:
   recipe-maintainers:
     - gonzalocasas
+    - beverlylytle
