@@ -30,8 +30,6 @@ requirements:
 test:
   imports:
     - roslibpy
-  commands:
-    - roslibpy --help
 
 about:
   home: https://github.com/gramaziokohler/roslibpy
