@@ -15,7 +15,7 @@ source:
 
 build:
   noarch: python
-  number: 1000
+  number: 1001
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
   entry_points:
     - "roslibpy=roslibpy.__main__:main"
