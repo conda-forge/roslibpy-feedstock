@@ -1,5 +1,5 @@
 {% set name = "roslibpy" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,14 +8,14 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bc17a61c95636c912920952f209acbb46bff84c66bc562b91e47f4c9949f4527
+  sha256: d8db9f5c1b4a314d070ecb6e355a94f23aacc867389b8c247ee83418e9b5f5f9
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
   entry_points:
-    - "roslibpy=roslibpy.__main__:main"
+    - roslibpy=roslibpy.__main__:main
 
 requirements:
   host:
