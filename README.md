@@ -5,9 +5,13 @@ Home: https://github.com/gramaziokohler/roslibpy
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/roslibpy-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python ROS Bridge library
+
+Development: https://github.com/gramaziokohler/roslibpy
+
+Documentation: https://roslibpy.readthedocs.io
 
 Python ROS Bridge library allows to use Python and IronPython to interact
 with ROS, the open-source robotic middleware. It uses WebSockets to
