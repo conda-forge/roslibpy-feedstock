@@ -19,13 +19,12 @@ build:
 
 requirements:
   host:
-    - python
     - pip
-    - setuptools
+    - python >=3.6
   run:
-    - python
     - autobahn >=17.10
     - twisted >=17.9
+    - python >=3.6
 
 test:
   imports:
