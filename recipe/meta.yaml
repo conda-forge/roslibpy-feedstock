@@ -1,5 +1,5 @@
 {% set name = "roslibpy" %}
-{% set version = "1.7.0" %}
+{% set version = "1.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 99e83c7098e70e148fd53c81e6d8742bca8f73201c2f39ba06f21d8d64e478f2
+  sha256: 204097609a5e834088c4499243bd921c951143ff00348697eb3c2ca50bc7bf67
 
 build:
   noarch: python
